@@ -1,0 +1,2 @@
+// This is Watch request acknowledgement
+b'{\n "kind": "api#channel",\n "id": "135180d6-8112-4025-a01b-af0c1123380f",\n "resourceId": "y25PCYcddAA0M6sEXHjShPUcveY",\n "resourceUri": "https://www.googleapis.com/calendar/v3/calendars/jagatheeshthangaraj@gmail.com/events?alt=json",\n "expiration": "1647240643000"\n}\n'to

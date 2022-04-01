@@ -1,0 +1,47 @@
+{
+   "kind": "calendar#event",
+   "etag": "\"3292971427452000\"",
+   "id": "4dcmg83nlrnb6kffr565t9h18b",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NGRjbWc4M25scm5iNmtmZnI1NjV0OWgxOGIgamFnYXRoZWVzaHRoYW5nYXJhakBt",
+   "created": "2022-03-05T13:08:33.000Z",
+   "updated": "2022-03-05T13:08:33.726Z",
+   "summary": "A3",
+   "creator": {
+    "email": "jagatheeshthangaraj@gmail.com",
+    "self": true
+   },
+   "organizer": {
+    "email": "jagatheeshthangaraj@gmail.com",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2022-03-05T19:00:00+05:30",
+    "timeZone": "Asia/Kolkata"
+   },
+   "end": {
+    "dateTime": "2022-03-05T20:00:00+05:30",
+    "timeZone": "Asia/Kolkata"
+   },
+   "iCalUID": "4dcmg83nlrnb6kffr565t9h18b@google.com",
+   "sequence": 0,
+   "reminders": {
+    "useDefault": true
+   },
+   "eventType": "default"
+  },
+
+Events()
+  id = char primary key
+  start-time = timestamptz
+  end-time = timestamptz
+  summary = varchar
+
+Attendees
+  id = char references events.id
+  name = varchar
+  email = varcahr
+email--->
+Attende
+  event_id
+  attedee_id
